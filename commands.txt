@@ -1,0 +1,15 @@
+## Libraries to install  ##
+npm install express
+npm install mongoose bcryptjs dotenv
+explanations{
+  mongoose → Connects Node.js to MongoDB.
+  bcryptjs → Hashes passwords for security.
+  dotenv → Stores sensitive data (e.g., DB credentials).
+}
+
+
+## How to run the Program ##
+mongod     #to start MongoDB
+mongosh    #to start the server
+node server.js     #to run the server
+'Ctrl + C'      #to stop the server
